@@ -1,0 +1,261 @@
+.carousel{
+  max-width: 100%;
+}
+.carousel-inner{
+  height: 600px;
+}
+.carousel-control-next-icon {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
+    height: 50px;
+    width: 50px;
+}
+.navrow{
+  width: 100%;
+}
+.navbar{
+  min-height: 70px;
+  background-color: #ffffff;
+}
+.navbar-nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+}
+ #active-nav{
+  color: orange;
+} 
+.home-icon{
+  color: #ffffff;
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+}
+.logo-div{
+  margin-left: 5%;
+}
+.jumbotron{
+  background-color: #ffddb2;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  border-radius: 2rem;
+}
+.jumb-text{
+  font-size: 20px;
+}
+.lead{
+  font-size: 20px;
+}
+.icon-cont{
+  margin-top: 100px;
+}
+/* .navbar-toggler{
+  margin-left: 5%;
+} */
+.suns{
+            color: #ed8535;
+            font-size: 70px;
+            font-family: 'Montserrat', sans-serif;
+
+
+}
+.snack{
+  color: #ed8535;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #055c9c; */
+}
+.services{
+  width: 100%;
+}
+#home-icon-1{
+  background: #ed8535;
+  border: 1px solid white;
+  padding-top: 25px;
+  padding-left: 35px;
+}
+#home-icon-2{
+  background: #ed8535;
+  border: 1px solid white;
+  padding-top: 35px;
+  padding-left: 28px;
+}
+#home-icon-3{
+  background: #ed8535;
+  border: 1px solid white;
+  padding-top: 33px;
+  padding-left: 25px;
+}
+#home-icon-4{
+  background: #ed8535;
+  border: 1px solid white;
+  padding-top: 33px;
+  padding-left: 37px;
+}
+.prod-head{
+  border-left: 5px solid grey;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+}
+.card{
+  height: 400px;
+}
+.icon-text{
+  font-size: 20px;
+}
+.all-prod{
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer{
+  margin-top: 30px;
+  background: #2c3840;
+}
+.row-footer{
+  max-width: 71rem;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-title{
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+}
+.footer-text{
+  margin-top: 15px;
+  color: #b9d1e0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.footer-icons{
+  color: #b9d1e0;
+  font-size: 20px;
+}
+.loc-icon{
+  font-size: 30px;
+  float: left;
+  color: white;
+}
+.footer-text-2{
+  color: #b9d1e0;
+  font-size: 15px;
+}
+.footer-text-3{
+  color: #b9d1e0;
+  font-size: 20px;
+}
+.footer-block{
+  margin-top: 15px;
+}
+.footer-block-2{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.lower-footer{
+  background: #020304;
+  color: white;
+  font-size: 25px;
+  /* height: 50px; */
+}
+.lower-footer-text{
+  /*margin-left: 20%;*/
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+/*.lower-footer-img{
+  margin-left: 5px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}*/
+.add-type{
+  font-weight: 700;
+}
+
+.add-work{
+  width: 400px;
+  margin-left: 35px;
+}
+
+.footer-img{
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.fa-registered{
+  color: white;
+  font-size: 11px;
+  margin-top: 5px;
+}
+@media (min-width: 992px){
+  .navbar-nav{
+    margin-left: 60%;
+    margin-right: 10%;
+    min-width: 500px;
+  }
+}
+@media (max-width: 991px){
+  .navbar-nav{
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1650px) and (min-width: 1200px){
+  .navbar-nav{
+    margin-left: 52%;
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .suns{
+    font-size: 50px;
+  }
+  .snack{
+    font-size: 50px;
+  }
+  .one{
+    width: 350px;
+  }
+  .lower-footer-text{
+    margin-left: 10px;
+  }
+  .lower-footer{
+    font-size: 20px;
+  }
+  .footer-img{
+    height: 40px;
+    width: 40px;
+  }
+  .carousel-inner{
+    height: 400px;
+  }
+  .d-block{
+    height: 400px;
+  }
+
+  .add-work{
+    width: 80%;
+    margin-left: 30px;
+  }
+}

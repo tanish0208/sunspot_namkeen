@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <title>Contact Us</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="checkout.css">
+   <script src="https://kit.fontawesome.com/15a74cfc18.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+   <!--Semantic CDN -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+
+
+   <link rel="icon" href="logo-mod.jpg" type="image/icon type">
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168042048-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168042048-1');
+  </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+            <div class="logo-div">
+            <img class="navbar-brand" width="100" height="70"src="logo.jpg">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="export.html">Exports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="active-nav" href="cart.html"><i class="fas fa-shopping-cart"></i>&nbsp;<sup><span class="num-prod"> 0</span></sup></a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+  <form class="needs-validation checkout-form" novalidate>
+  <div class="form-row">
+    <div class="col-lg-5 col-xl-4 col-sm-6 col-8 mb-3">
+      <label for="validationCustom01">Full name</label>
+      <input type="text" class="form-control" id="validationCustom01" required>
+      <div class="invalid-feedback">
+        Please provide a valid name
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-2 col-sm-5 col-8 mb-3">
+      <label for="validationCustom01">Mobile No.</label>
+      <input type="number" class="form-control" id="validationCustom02" required min="5000000000" max="9999999999">
+      <div class="invalid-feedback">
+        Please provide a valid mobile no.
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-5 col-xl-4 col-md-6 mb-3">
+      <label for="validationCustom03">Email address</label>
+      <input type="email" class="form-control" id="validationCustom03">
+      <div class="invalid-feedback">
+        Please provide a valid email address
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-10 mb-3">
+      <label for="validationCustom04">Address</label>
+      <input type="text" class="form-control" id="validationCustom04" required>
+      <div class="invalid-feedback">
+        Please provide a valid address.
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-5 col-xl-4 col-md-6 mb-3">
+      <label for="validationCustom05">Landmark</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid landmark
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-5 col-xl-4 col-md-6 mb-3">
+      <label for="validationCustom06">City</label>
+      <input type="text" class="form-control" id="validationCustom06" required>
+      <div class="invalid-feedback">
+        Please provide a valid city
+      </div>
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="col-lg-2 col-sm-4 col-4 mb-3">
+      <label for="validationCustom07">Pincode</label>
+      <input type="number" class="form-control" id="validationCustom07" required min="10000" max="9999999">
+      <div class="invalid-feedback">
+        Please provide a valid pincode
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-lg-10 mb-3">
+      <label for="validationCustom08">Payment Info</label>
+      <p class="pay">Payment can be done via COD/Paytm/Bank-Transfer</p>
+    </div>
+  </div>
+  <button class="btn btn-primary mt-5 mb-5 submit-but" type="submit">Place Order</button>
+</form>
+<div class="empty-div"><h1 class="empty-cart"></h1></div>
+<!-- <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+})();
+</script> -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<!-- <script src="/__/firebase/7.15.5/firebase-auth.js"></script> -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script> -->
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<!-- <script src="/__/firebase/init.js"></script> -->
+  <script type="text/javascript" src="checkout.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <title>Products</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="product.css">
+   <script src="https://kit.fontawesome.com/15a74cfc18.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Delius&family=Delius+Swash+Caps&family=Merienda&family=Niconne&family=Patrick+Hand&display=swap" rel="stylesheet">
+   <link rel="icon" href="logo-mod.jpg" type="image/icon type">
+   <!-- <script type="text/javascript" src="jQuery.js"></script> -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168042048-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168042048-1');
+  </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+            <div class="logo-div">
+            <img class="navbar-brand" width="100" height="70"src="logo.jpg">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="active-nav" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="export.html">Exports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart shopping-cart"></i>&nbsp;<sup><span class="num-prod"> 0</span></sup></a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+    <section class="container-fluid">
+      <div class="row prod-head">
+        <h1 class="prod-header">Our Products</h1>
+      </div>
+      <div class="row justify-content-center category-row">
+        <a href="product.html#namk" class="btn btn-outline-dark category ml-3">Namkeen</a>
+        <a href="product.html#waf" class="btn btn-outline-dark category">Wafers</a>
+        <a href="product.html#chikki" class="btn btn-outline-dark category">Chikki</a>
+        <a href="product.html#dry" class="btn btn-outline-dark category">Dry Fruits</a>
+        <a href="product.html#khakhra" class="btn btn-outline-dark category">Khakhra</a>
+        <a href="product.html#frozen" class="btn btn-outline-dark category">Frozen Foods</a>
+      </div>
+      <div class="row namkeen">
+
+        <h2 class="namkeen-header" id="namk">Namkeen</h2>
+      </div>
+    </section>
+    <section class="container-fluid product-sect">
+      <div class="row prod-row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="bikaneri-sev.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Bikaneri Sev</h3>
+            <h3 class="prod-title-1">(Crazy Slims)</h3>
+            <hr class="line">
+            <p class="prod-desc">Secret Taste! Premium Indian Snack, Spicy-Tasty & Unforgettable.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 40 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 75 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 180 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Ratlami Sev.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Ratlami Sev</h3>
+            <h3 class="prod-title-1">(Hot Slims)</h3>
+            <hr class="line">
+            <p class="prod-desc">Seriously Hot! Spicy Tidbits Made from Chickpeas Flour.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Alu Sev.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Alu Sev</h3>
+            <h3 class="prod-title-1">(Potato Slims)</h3>
+            <hr class="line">
+            <p class="prod-desc">Tangy-Tidbits Made from Potatoes & Flavor Ingredients.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 40 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 75 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 180 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Lahsan Sev.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Lahsun Sev</h3>
+            <h3 class="prod-title-1">(Garlic Magic)</h3>
+            <hr class="line">
+            <p class="prod-desc">Tidbits Made from Chickpeas Flour with Garlic Flavor.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Sada Sev.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Sada Sev</h3>
+            <h3 class="prod-title-1">(Slims)</h3>
+            <hr class="line">
+            <p class="prod-desc">Simple Salted Snack Made from Chickpeas<br> Flour</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="sing-bhujia.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Sing Bhujia</h3>
+            <h3 class="prod-title-1">(Hot Peanuts)</h3>
+            <hr class="line">
+            <p class="prod-desc">Carefully selected peanuts sprinkled with Hot-Tasty mouth-Watering Spices.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Chana Jorgaram.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Chana Jorgaram</h3>
+            <h3 class="prod-title-1">(Mashed Chickpeas)</h3>
+            <hr class="line">
+            <p class="prod-desc">Mouth-watering, Tangy Snack Mingled with Traditional Indian Spices.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Ganthiya.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Ganthiya</h3>
+            <h3 class="prod-title-1">(Finger Food-Salted)</h3>
+            <hr class="line">
+            <p class="prod-desc">Gujarat’s Popular Finger-Food Made from Chickpeas Flour.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 60 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 145 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Khatta-Mitha Mix.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Khatta-Mitha Mix</h3>
+            <h3 class="prod-title-1">(Sweet 'n' Sour Mix)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Lip-Smacking Mix of Indian Munchies.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 60 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 145 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Mixture-Sweet.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Chavana-Sweet</h3>
+            <h3 class="prod-title-1">(Mix Munchies)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Finest Gujarati Traditional Mix.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 60 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 145 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Rajasthani Mixture.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Rajasthani Mix</h3>
+            <h3 class="prod-title-1">(Hot Mix)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Traditional Spicy Mix of Finest Indian Munchies</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 60 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 145 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Daal Moth.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Daalmoth</h3>
+            <h3 class="prod-title-1">(Quick Bite Mix)</h3>
+            <hr class="line">
+            <p class="prod-desc">Traditionally Flavored Red Lentils & Chickpeas Flour Slims Mix</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="moong-daal.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Moong Daal</h3>
+            <h3 class="prod-title-1">(Split Green Gram-Salted)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Unique Snack Prepared from Split Green Gram.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 45 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 85 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 200 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Chana Daal.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Chana Daal</h3>
+            <h3 class="prod-title-1">(Split Chickpeas)</h3>
+            <hr class="line">
+            <p class="prod-desc">Spicy Snack with Fantasy of Traditional Indian Flavors.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Boondi-Masala.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Boondi-Tikhi</h3>
+            <h3 class="prod-title-1">(Fire Balls)</h3>
+            <hr class="line">
+            <p class="prod-desc">Chickpeas Flour Drops, Special Treat for Spice lovers.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Boondi-Salted.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Boondi-Salted</h3>
+            <h3 class="prod-title-1">(Crunchy Balls)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Chickpeas Flour Drops, Salted-to-Taste.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 30 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Farali Chevda-Masala.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Falahari Chivda-Tikha</h3>
+            <h3 class="prod-title-1">(Potato Sticks Mix-Spicy)</h3>
+            <hr class="line">
+            <p class="prod-desc">Magical Mix of Potato Sticks & Crispy Peanuts with Finest Traditional ingredients</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Farali Chevda-Sweet.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Falahari Chivda-Sweet</h3>
+            <h3 class="prod-title-1">(Potato Sticks Mix-Sweet)</h3>
+            <hr class="line">
+            <p class="prod-desc">Magical Mix of Potato Sticks & Crispy Peanuts with a punch of Black Pepper</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Makai Chevdo.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Makai Chevdo</h3>
+            <h3 class="prod-title-1">(Corn Flakes Mix)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Light & Crispy Corn Flakes Mix.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 25 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Pauwa Chevdo.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Pauwa Chevdo</h3>
+            <h3 class="prod-title-1">(Rice Flakes Mix)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Light & Crispy Rice Flakes Mix.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 25 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Potato Sticks.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Alu Laccha</h3>
+            <h3 class="prod-title-1">(Potato Sticks)</h3>
+            <hr class="line">
+            <p class="prod-desc">Crispy Potato Sticks Flavored with Tasty Ingredients.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)</p><p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row namkeen">
+        <h2 class="namkeen-header" id="waf">Wafers</h2>
+      </div>
+      <div class="row prod-row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="banana-chips.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Kela Wafer-Kali Mirch</h3>
+            <h3 class="prod-title-1">(Banana Chips-Black Pepper)</h3>
+            <hr class="line">
+            <p class="prod-desc">Indian Bananas, Sliced and Flavored with Black Pepper.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 170 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Banana Chips-Masala.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Kela Wafer-Masala</h3>
+            <h3 class="prod-title-1">(Banana Chips-Spicy)</h3>
+            <hr class="line">
+            <p class="prod-desc">Indian Bananas, Sliced and Spiced with Hot-Tasty ingredients.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 35 (200g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Potato Chips-Salted.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Alu Wafer-Salted</h3>
+            <h3 class="prod-title-1">(Potato Chips-Salted)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Crispy Chips Made from Finest Potatoes.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 20 (95g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 40 (200g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 75 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 180 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Potato Chips-Rippled.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Alu Wafer-Rippled(Salted)</h3>
+            <h3 class="prod-title-1">(Potato Chips-Rippled(Salted))</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Crispy Rippled Chips Made from Finest Potatoes.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 40 (200g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Potato Chips-Masala.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Alu Wafer-Masala</h3>
+            <h3 class="prod-title-1">(Potato Chips-Spicy)</h3>
+            <hr class="line">
+            <p class="prod-desc">Finest Potatoes, Sliced and Spiced with Hot-Tasty ingredients.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 20 (95g)</p><button type="button" class="add-cart">Add To Cart</button>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 40 (200g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p><p class="options">Price: <i class="fas fa-rupee-sign"></i> 75 (400g)</p><button type="button" class="add-cart">Add To Cart</button></p>
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 180 (1KG)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row namkeen">
+        <h2 class="namkeen-header" id="chikki">Chikki</h2>
+      </div>
+      <div class="row prod-row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Sing Chikki.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Sing Chikki</h3>
+            <h3 class="prod-title-1">(Peanut Crunch)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Amazing Pieces Made from Peanuts & Jaggery.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 65 (400g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+        </div>
+      </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="Til Chikki.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Til Chikki</h3>
+            <h3 class="prod-title-1">(Sesame Crunch)</h3>
+            <hr class="line">
+            <p class="prod-desc">Amazing Pieces Made from Sesame Seeds & Jaggery.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 80 (400g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row namkeen">
+        <h2 class="namkeen-header" id="dry">Dry Fruits</h2>
+      </div>
+      <div class="row prod-row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="almond.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Badaam</h3>
+            <h3 class="prod-title-1">(Almond)</h3>
+            <hr class="line">
+            <p class="prod-desc">The finest quality almonds.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)</p><p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="cashew.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Kaju</h3>
+            <h3 class="prod-title-1">(Cashew Nuts)</h3>
+            <hr class="line">
+            <p class="prod-desc">The finest quality cashews.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)<p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="walnut.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Akhrot</h3>
+            <h3 class="prod-title-1">(Walnut)</h3>
+            <hr class="line">
+            <p class="prod-desc">The finest quality walnuts.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)<p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="pistachio.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Pista</h3>
+            <h3 class="prod-title-1">(Pistachio)</h3>
+            <hr class="line">
+            <p class="prod-desc">The finest quality pistachios.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)<p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="raisin.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Kishmish</h3>
+            <h3 class="prod-title-1">(Raisin)</h3>
+            <hr class="line">
+            <p class="prod-desc">The finest quality raisins.</p>
+            <!-- <p class="options">Price: <i class="fas fa-rupee-sign"></i> 140 (1KG)<p><button type="button" class="add-cart">Add To Cart</button></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row namkeen">
+        <h2 class="namkeen-header" id="khakhra">Khakhra</h2>
+      </div>
+      <div class="row prod-row">
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="masala.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Masala Khakhra</h3>
+            <h3 class="prod-title-1">(Thin Cracker-Masala)</h3>
+            <hr class="line">
+            <p class="prod-desc">Crispy and Crunchy Khakhra with lip smacking masala.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (500g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="methi.jpg" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Methi Khakhra</h3>
+            <h3 class="prod-title-1">(Thin Cracker-Methi)</h3>
+            <hr class="line">
+            <p class="prod-desc">Crispy and Crunchy Khakhra with goodness of Fenugreek.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (500g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="jeera.png" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Jeera Khakhra</h3>
+            <h3 class="prod-title-1">(Thin Cracker-Cumin)</h3>
+            <hr class="line">
+            <p class="prod-desc">Crispy and Crunchy Khakhra with benefits of Cumin Seeds.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (500g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6 row-col">
+          <img src="sada.png" class="prod-image">
+          <div class="context">
+            <h3 class="prod-title">Sada Khakhra</h3>
+            <h3 class="prod-title-1">(Thin Cracker-Plain)</h3>
+            <hr class="line">
+            <p class="prod-desc prod-desc-1">Crispy and Crunchy Khakhra with Classic taste.</p>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product Categories
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <p class="options">Price: <i class="fas fa-rupee-sign"></i> 70 (500g)</p><button type="button" class="add-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="illus">
+      <p>*Images are for illustration purposes only.</p>
+    </div>
+    <section class="container-fluid">
+      <div class="row lower-footer">
+        <img class="footer-img" src="windot-logo-new.png" height="50" width="50"><i class="far fa-registered"></i><p class="lower-footer-text">A Windot Product</p>
+      </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="product.js"></script>
+  </body>
+</html>

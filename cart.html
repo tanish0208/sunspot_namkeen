@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="telephone=no" name="format-detection">
+    <title>Contact Us</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://kit.fontawesome.com/15a74cfc18.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+   <!--Semantic CDN -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+
+
+   <link rel="icon" href="logo-mod.jpg" type="image/icon type">
+   <link rel="stylesheet" href="cart.css">
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168042048-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168042048-1');
+  </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+            <div class="logo-div">
+            <img class="navbar-brand" width="100" height="70"src="logo.jpg">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="export.html">Exports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="active-nav" href="cart.html"><i class="fas fa-shopping-cart"></i>&nbsp;<sup><span class="num-prod"> 0</span></sup></a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+    <h1 class="your-cart">Your Cart</h1>
+    <div class="empty-div"><h1 class="empty-cart"></h1></div>
+    <div class="prod-button-div"><a href="product.html" class="btn btn-dark prod-button">Go to Products</a></div>
+    <!-- <div class="row products-header mt-5">
+      <h1 class="product">Product</h1>
+      <h1 class="quantity">Quantity</h1>
+      <h1 class="total">Total</h1>
+    </div> -->
+    <div class="container-fluid product-box">
+      <div class="row prod-row">
+        
+      </div>
+    </div>
+    <!-- <div class="cart-sum">
+    <div class="row total">
+      <p class="subtotal">Your cart subtotal</p>
+      <p class="subtotal-amount"></p>
+    </div>
+    <div class="row total">
+      <p class="subtotal">Shipping charges</p>
+      <p class="subtotal-amount"><i class="fas fa-rupee-sign"></i>&nbsp;100</p>
+    </div>
+    <div class="row total">
+      <p class="subtotal">Your cart total</p>
+      <p class="total-amount"></p>
+    </div>
+    </div> -->
+  <table class="table table-hover ">
+  <tbody>
+    <tr>
+      <th scope="row">Your cart subtotal</th>
+      <td class="subtotal-amount"></td>
+    </tr>
+    <tr>
+      <th scope="row">Shipping Charges</th>
+      <td>Shipping cost will be charged on actuals. Delivery date and time will be conveyed to you shortly.</td>
+    </tr>
+    <tr>
+      <th scope="row">Introductory Offer</th>
+      <td class="total-amount">5% off on total bill.</td>
+    </tr>
+  </tbody>
+  </table>
+  <div class="checkout">
+    <a href="checkout.html" class="btn btn-dark">Proceed to Checkout</a>
+  </div>
+    <script type="text/javascript" src="cart.js"></script>
+  </body>
+  </html>
